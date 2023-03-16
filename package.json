@@ -1,21 +1,21 @@
 {
-  "name": "canvas-sandbox",
+  "name": "basic-parcel-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://KtianG.github.io/canvas-sandbox",
+  "homepage": "https://KtianG.github.io/basic-parcel-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /canvas-sandbox/"
+    "build": "parcel build src/*.html --public-url /basic-parcel-template/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KtianG/canvas-sandbox.git"
+    "url": "git+https://github.com/KtianG/basic-parcel-template.git"
   },
   "keywords": [],
   "author": "Krystian Guz <krystian.guz@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KtianG/canvas-sandbox/issues"
+    "url": "https://github.com/KtianG/basic-parcel-template/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
