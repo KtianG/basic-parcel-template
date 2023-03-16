@@ -1,0 +1,30 @@
+{
+  "name": "canvas-sandbox",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://KtianG.github.io/canvas-sandbox",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /canvas-sandbox/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KtianG/canvas-sandbox.git"
+  },
+  "keywords": [],
+  "author": "Krystian Guz <krystian.guz@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KtianG/canvas-sandbox/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
